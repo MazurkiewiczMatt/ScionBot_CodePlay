@@ -2,7 +2,7 @@ import datetime
 from utility import read_settings, get_keywords, daterange
 from web_scraper import get_comments
 import pandas as pd
-from dictionary_sentiment_analysis import dictionary_sentiment_check
+from dictionary_sentiment_analysis import vectorized_sentiment_check
 import numpy
 
 
@@ -18,7 +18,6 @@ for start_date in daterange(settings[1], settings[2]):
         print("Checking " + subreddit)
         df = df.append(get_comments(subreddit, start_date, end_date, keywords))
 
-vectorized_sentiment_check = numpy.vectorize(dictionary_sentiment_check)
 df['Dictionary_bullishness'] = vectorized_sentiment_check(df['Body'])
 
 pd.set_option('display.max_rows', None)
