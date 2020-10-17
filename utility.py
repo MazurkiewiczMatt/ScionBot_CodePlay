@@ -33,4 +33,5 @@ def read_settings(filename: str) -> list:
 def get_keywords(ticker: str) -> list:
     company = yf.Ticker(ticker)
     names = [ticker, company.info['longName'], company.info['shortName'], company.info['longName'].split()[0]]
+    names = [name.lower() for name in names]
     return list(set(names))

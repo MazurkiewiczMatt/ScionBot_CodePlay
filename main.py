@@ -6,13 +6,7 @@ import pandas
 settings = read_settings('settings.txt')
 keywords = get_keywords(settings[0])
 
-dataframes = []
 
-for subreddit in settings[-1]:
-    dataframes.append(get_comments(subreddit, settings[1], settings[2], keywords))
-
-df = dataframes[0]
-for dfs in range(len(dataframes) - 1):
-    df.append(dataframes[dfs+1])
+df = get_comments(settings[-1][0], settings[1], settings[2], keywords)
 
 print(df)
