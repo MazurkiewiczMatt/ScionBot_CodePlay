@@ -3,7 +3,7 @@
 
 ### [Webpage](https://www.3ify.io/codeplay)
 
-2020, the year of pandemic and uncertainity, saw unprecedented levels of volatility. VIX, CBOE Volatility Index, sometimes reffered to as "fear index" [1], hit its all-time high on 16 March. This, along with major societal changes caused by COVID-19 [2] and significant media coverage of financial markets, caused the raise of retail investors [3][4]. The individual investors (non-professional market participants) account for over 20% of traded equity [5][6], and the knowledge of their movements became an object of great interest for big investors [7].
+2020, the year of pandemic and uncertainity, saw unprecedented levels of volatility. VIX, CBOE Volatility Index, sometimes reffered to as "fear index", hit its all-time high on 16 March 💸 [1]. This, along with major societal changes caused by COVID-19 [2] and significant media coverage of financial markets, caused the raise of retail investors 📈 [3][4]. The individual investors 💻 (non-professional market participants) account for over 20% of traded equity [5][6], and the knowledge of their movements became an object of great interest for big investors [7].
 
 ```
 10 highest VIX closes
@@ -22,6 +22,8 @@ Thu 19 Mar 2020 = 72.00
 Table 1: All-Time Highest VIX Closes [8].
 
 Some attempts have been made at quantizing the retail investors' sentiment.
+
+---
 
 [1]: [What Does the Volatility Index (VIX) Indicate?](https://www.investopedia.com/news/what-does-volatility-index-vix-indicate/), James Chen, 13 March 2020.
 
