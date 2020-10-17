@@ -25,3 +25,8 @@ pd.set_option('display.width', None)
 pd.set_option('display.max_colwidth', -1)
 
 print(df)
+
+dictionary_metric = df.drop(columns=['ID', 'Author', 'Body'])
+
+print(dictionary_metric)
+
