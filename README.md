@@ -23,7 +23,7 @@ Thu 19 Mar 2020 = 72.00
 ```
 Table 1: All-Time Highest VIX Closes [8].
 
-Some attempts have been made at quantizing the retail investors' sentiment.
+Some attempts have been made at quantizing the retail investors' sentiment. Mjysong's [Momentum Trading off Sentiment from r/wallstreetbets](https://medium.com/@mjysong/momentum-trading-off-sentiment-from-r-wallstreetbets-149c19c7538d) article on Medium describes one such inquiry. The author attempts to evaluate post on [r/wallstreetbets](https://www.reddit.com/r/wallstreetbets/) 💵, 1.6 million strong financial community on social media site Reddit, by whether they represent bullish 📈 or bearish 📉 sentiment. He creates a dictionary of 200 words of subreddit's subculture, which he uses to calculate Bull/Bear ratio from 25 most-commented threads.
 
 ---
 
