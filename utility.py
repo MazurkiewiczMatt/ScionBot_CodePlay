@@ -25,7 +25,7 @@ def read_settings(filename: str) -> list:
         raise Exception("Invalid data format: " + str(settings_file[1]) + ", " + str(settings_file[2]))
 
     # convert string containing subreddit names to a list
-    settings_file[-1] = settings_file[-1].split(', ')
+    settings_file[-1] = settings_file[-1].split(',')
 
     return settings_file
 
@@ -34,9 +34,10 @@ def get_keywords(ticker: str) -> list:
     company = yf.Ticker(ticker)
     names = [ticker, company.info['longName'], company.info['shortName']]
     first_word = company.info['longName'].split()[0]
+    # get rid of , at the end of name's first word (like "tesla, inc." => "tesla")
     if first_word[-1] == ',':
-        names.append(company.info['longName'].split()[0])
-    else:
         names.append(company.info['longName'].split()[0][:-1])
+    else:
+        names.append(company.info['longName'].split()[0])
     names = [name.lower() for name in names]
     return list(set(names))

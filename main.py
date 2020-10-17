@@ -7,9 +7,10 @@ settings = read_settings('settings.txt')
 keywords = get_keywords(settings[0])
 print(keywords)
 
-dataframes = []
+df = pd.DataFrame
 
 for subreddit in settings[-1]:
-    dataframes.append(get_comments(subreddit, settings[1], settings[2], keywords))
+    print("Checking " + subreddit)
+    df = df.merge(get_comments(subreddit, settings[1], settings[2], keywords))
 
-print(dataframes)
+print(df)
