@@ -32,14 +32,12 @@ def get_comments(subreddit, start_date, end_date, keywords=[]):
     df = pd.DataFrame()
 
     submissions = getPushshiftData(start_date, end_date, subreddit)
-    print("pushift data got!")
 
     for submission in submissions:
-        print("checking submission!")
         post = r.submission(id=submission["id"])
         post.comments.replace_more(limit=0)
         comment_queue = post.comments[:]
-        if keywords == []:
+        if not keywords:
             while comment_queue:
                 comment = comment_queue.pop(0)
                 df = pd.concat([comment_to_df(comment), df], ignore_index=True)
@@ -52,5 +50,4 @@ def get_comments(subreddit, start_date, end_date, keywords=[]):
                 comment_queue.extend(comment.replies)
 
     df = df.rename(columns={0: "Date", 1: "ID", 2: "Author", 3: "Subreddit", 4: "Body"})
-    print("done!")
     return df
