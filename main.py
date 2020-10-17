@@ -1,16 +1,18 @@
-with open("settings.txt") as f:
-    settings = f.readlines()
+from datetime import date
+from utility import read_settings, get_keywords
+from web_scraper import get_comments
+import pandas
 
-# check whether the file is valid
-if not len(settings) == 4:
-    raise Exception("Invalid settings file: 4 lines expected, " + str(len(settings)) + " received.")
+settings = read_settings('settings.txt')
+keywords = get_keywords(settings[0])
 
-# remove whitespace
-for i in range(len(settings)):
-    settings[i] = settings[i].strip()
+dataframes = []
 
-# convert string containing subreddit names to a list
-settings[-1] = settings[-1].split()
+for subreddit in settings[-1]:
+    dataframes.append(get_comments(subreddit, settings[1], settings[2], keywords))
 
+df = dataframes[0]
+for dfs in range(len(dataframes) - 1):
+    df.append(dataframes[dfs+1])
 
-print(settings)
+print(df)
