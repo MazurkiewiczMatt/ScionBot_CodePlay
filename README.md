@@ -29,6 +29,8 @@ Our implementation includes several substantial improvements. First off, instead
 
 The gathered data is analyzed two-folds: first, with use of manually written dictionary of bullish 🐂 and bearish 🐻 keywords. The outcome is series of bullishness metric datapoints and their dates (one for each relevant comment), a set of those for every subreddit. The other analysis we implemented is [MonkeyLearn 🐒 Sentiment Analysis Classifier](https://app.monkeylearn.com/main/classifiers/cl_pi3C7JiL/tab/api/).
 
+![Amazon mentions plot](/results/mentions_over_time.png)
+
 ---
 
 [1]: [What Does the Volatility Index (VIX) Indicate?](https://www.investopedia.com/news/what-does-volatility-index-vix-indicate/), James Chen, 13 March 2020.
