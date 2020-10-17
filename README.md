@@ -1,7 +1,11 @@
-# Scion Bot
+# Scion Bot 📊
 ### An entry to CodePlay 2020 by Asseco.
 
-### [Webpage](https://www.3ify.io/codeplay)
+---
+
+### [Webpage 🖥](https://www.3ify.io/codeplay)
+
+---
 
 2020, the year of pandemic and uncertainity, saw unprecedented levels of volatility. VIX, CBOE Volatility Index, sometimes reffered to as "fear index", hit its all-time high on 16 March 💸 [1]. This, along with major societal changes caused by COVID-19 [2] and significant media coverage of financial markets, caused the raise of retail investors 📈 [3][4]. The individual investors 💻 (non-professional market participants) account for over 20% of traded equity [5][6], and the knowledge of their movements became an object of great interest for big investors [7].
 
