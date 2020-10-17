@@ -32,7 +32,7 @@ def read_settings(filename: str) -> list:
 
 def get_keywords(ticker: str) -> list:
     company = yf.Ticker(ticker).info
-    names = [ticker, company['longName'], company['shortName']]
+    names = [ticker, company['shortName']]
     first_word = company['longName'].split()[0]
     # get rid of , at the end of name's first word (like "tesla, inc." => "tesla")
     if first_word[-1] == ',':
