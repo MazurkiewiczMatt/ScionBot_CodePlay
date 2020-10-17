@@ -24,7 +24,7 @@ settings_file = utility.read_settings("settings.txt")
 comments = pd.DataFrame()
 for single_date in utility.daterange(start_date, end_date):
     for subreddit in subreddits:
-        print("Checking " + str(subreddit) + "on" + str(single_date))
+        print("Checking " + str(subreddit) + " on " + str(single_date))
         new_data = get_comments(subreddit, single_date, single_date+datetime.timedelta(days=1), keywords[company])
         comments = comments.append(new_data)
 
