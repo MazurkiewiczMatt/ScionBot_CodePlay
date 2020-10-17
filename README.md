@@ -31,7 +31,7 @@ The gathered data is analyzed two-folds: first, with use of manually written dic
 
 ![Amazon mentions plot](/results/mentions_over_time.png)
 
-Figure 1: Example of mentions of Amazon over the week. Note the Amazon Prime Day (2nd day on the graph which was the 13th of October)
+Figure 1: Example of mentions of Amazon over the week. Note the Amazon Prime Day (2nd day on the graph which was the 13th of October, red line stands for negative comments, gray for neutral and green for positive)
 
 ---
 
