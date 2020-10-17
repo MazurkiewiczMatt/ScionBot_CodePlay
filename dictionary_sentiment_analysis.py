@@ -1,3 +1,5 @@
+import numpy
+
 bull_words = ["moon", "rocket", "tendies", "call", "print", "bull", "long", "gain", "rise", "fed", "increase", "green",
               "profit", "buy"]
 
@@ -20,3 +22,6 @@ def dictionary_sentiment_check(string: str) -> float:
         return bullishness / total_words
     else:
         return 0.5
+
+
+vectorized_sentiment_check = numpy.vectorize(dictionary_sentiment_check)
