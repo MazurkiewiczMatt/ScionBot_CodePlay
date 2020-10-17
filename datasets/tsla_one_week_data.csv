@@ -1,0 +1,422 @@
+,Date,ID,Author,Subreddit,Body
+0,2020-10-11,g8gah8k,clicknbait,investing,"Well, first ""hypergrowth stocks"" are always overvalued because no one can assign true value to growth opportunity and runway. All the analysts chase stock price, which is why you see analysts raining TSLA price target to $550. I mean, where were they when TSLA was sitting at $40  (split adjusted) an year ago?
+
+&#x200B;
+
+Second, look at the TAM and leadership teams. Fastly is run by a stellar leadership team. Fiverr has a good CEO so both are comparable in that aspect. If I had to choose, I will choose FVRR because of little competition from Upwork. Upwork is a poor product. On the other hand, Fastly has legitimate competition from NET and so even though FSLY will continue to innovate, NET will keep them on their feet and give them a run for their money. 
+
+FSLY is personally my second largest position after Sea Limited but I would still prefer Fiverr because the stock is considerably cheaper than Fastly right now (on eval basis)."
+1,2020-10-10,g8dbteq,Thraex_Exile,investing,"I don’t think Tesla is driving to the California mountains from Palo Alto, but the weather in northern states is much more severe. A self-driving car needs to be prepared for all extremes. Can’t just work with a little bit of everything. They need all extremes. If they are running those tests in more extreme climates. More power to them!"
+2,2020-10-11,g8eb7v0,borneshis,investing,"FSD doesn't exist yet according to their own website. That's why I don't consider them the same thing. Autopilot is not close to FSD.
+
+https://www.tesla.com/autopilot"
+3,2020-10-11,g8hlwhv,-Xyras-,investing,"I think this is the guy with a rooted tesla, havent really been following lately but he used to post some decent visualizations about internal states of AP [https://twitter.com/greentheonly/status/1096322810694287361?s=20](https://twitter.com/greentheonly/status/1096322810694287361?s=20)
+
+I dont really buy anything Elon says at face value anymore. Hes a salesman with everything at stake."
+4,2020-10-11,g8ew4yd,thewimsey,investing,">Autopilot is driving 99% better than humans on roads that it is supposed to be driven on.
+
+No, it isn't. 
+
+There are cars in the same luxury category as Teslas with a much safer driving record (no fatalities) despite not being self driving at all."
+5,2020-10-11,g8ej7me,pasta4breakfast,investing,"Even from the single video it is apparent that autopilot is not perfect. If you make the effort to heck multiple autopilot test available on youtube you'd get the same conclusion.
+
+>Autopilot is driving 99% better than humans on roads that it is supposed to be driven on
+
+See now you're moving the goalpost. I know tesla shows autopilot statistics and as you say people probably only turn it on in situation where they know it can perform good enough. Which mostly is highway driving or linear roads. This is the type of roads where you really only need to maintain your speed and follow the lane lines, a technology that already exists since the 90s even without the use of DL. 
+
+So then what does 99% better mean? Are you proposing it means better in situation where it is already better? Then that's a very misleading claim no? This thread is not talking about what tesla is or isn't capable on doing right now. It's about general level 5 full self driving."
+6,2020-10-11,g8hl6pl,Alilttotheleft,investing,"Agreed. They’ve already updated the computers from the ones in the earliest FSD versions once or twice and will have to retrofit those later to keep their promise. Reeeeeeeally over promised on that early on. 
+
+I’d be curious to learn more about what gets sent back if you have a source somewhere. I’ll do some searching myself, too. Elon has mentioned several times that future versions or changes in Autopilot are run in shadow mode adjacent to the current running version so it can validate decisions and learn from driver input and what’s going on around the car while in its current version. I assumed a lot of that stuff went back to Tesla, but it could all just be local machine learning."
+7,2020-10-10,g8cpcth,Thraex_Exile,investing,"I’d hope so. A lot of car companies like to build their vehicles for very specific conditions. A team in California working for Tesla for instance could easily underestimate the conditions in South Dakota without actually being there.
+
+I suppose worst case they could have a forced shut off for situations where the car can’t be trusted to perform at 100%"
+8,2020-10-11,g8h8u2m,-Xyras-,investing,"They screwed themselves by claiming all of their new cars were fsd ready. Going back on that would make them liable to a lot of lawsuits from customers that overpaid for fsd based on false promises.
+
+Adding lidar to all S and X would cost hundreds of millions (even though they dont sell many of those) with little assured gain as they really cant afford to (and they dont, people have rooted teslas with insight of whats being reported) send that much data back."
+9,2020-10-11,g8hksis,Alilttotheleft,investing,"I don’t doubt for a second that they’re going at this in the hardest way possible... but I think it’s also the most complete solution as instead of relying on precision mapping that is impossible to keep 100% up to date (see GM’s Supercruise) it’s teaching the cars how to react, identify objects, etc, through machine learning. It’s definitely the most challenging implementation, but IF they can make it work it’ll likely be the most powerful one. Autopilot is already the best driver assistant on the road and getting better all the time - Tesla’s so far ahead on that stuff at this point that every day it seems a little more likely to me that Elon was right on this one. Just my opinion, natch.
+
+As for the LIDAR comment - sure, I believe it can be done with cameras only. But in these early stages of development and until it is perfected I think LIDAR could add a lot of valuable data and accuracy to the system. Or, if they wanted to implement it permanently moving forward LIDAR would be a fantastic backup tool for validating Tesla Vision while in use. Just because I think they can do it with cameras doesn’t mean I don’t have concerns around the accuracy and reliability of everything, especially this early in development. So long as the car’s computer can handle the input more information so it can make better decisions will always be a good thing."
+10,2020-10-10,g8da0xl,_Karma_0,investing,"It is not only highway driving, the city street driving update came out several months ago. And one video is not evidence of anything, there’s over a million Tesla’s on the road, you need data from the whole fleet to make any conclusions."
+11,2020-10-11,g8e6cgb,ObservationalHumor,investing,"Tesla's system hit a truck because it relied super heavily on their front radar array which has garbage vertical resolution.  As a result they heavily filtered it and decided the truck was a static object like an overpass or sign gantry.  Their vision system was dogshit at the time and identified the truck as part of the sky line.  Most of these systems are nowhere near as comprehensive or accurate as you seem to think, they're getting better but they're probabalistic estimators by design and their thresholds for intervention are closer to 65-70% than 99.999999% and you don't even find accuracy numbers that high for basic tasks for object recognition and depth estimation in cutting edge academic research most of the time.  Really that's a ridiculous number given that farm simpler tasks with far more complex consensus models don't even achieve that kind of accuracy.  For Tesla's system specifically they don't a vision based depth field estimator currently, train on video data or prestitched panoramas of their camera feed to deal well with objects moving between them.  Their actual highway TACC systems still suffer from problems like phantom breaking and properly detecting static road side obstacles specifically because they lean so heavily on their front radar array which just has terrible vertical resolution.  Their smart summon system is basically a two ton Roomba at this point too.
+
+They're supposed to be doing a big rewrite to actually approach the problem in a sane say instead of everything being bolted onto their radar heavy TACC system but even that they're hyping as ""zero intervention"" some of the time.  None of this crap is even the hard stuff though like ascertaining the intent of pedestrians, cyclists and deriving a good structural and semantic understanding of things like intersections or other crossings.
+
+Waymo's system should be better specifically because they're willing to use additional sensor suites (primarily LIDAR) and HD maps which provide a good expectation for what the ground truth should look like.  Even then it's taken them years to get things working in one town in Arizona under close to ideal driving conditions.
+
+Maybe in 5-10 years we see Waymo get things portable enough or do enough mapping to transition their system to a major metro area where they can potentially make money off a robotaxi service in good weather, but that's about as optimistic as I'm willing to be personally.  There's also a huge problem here with there being no real formal verification or indepedent testing process for pretty much any FSD system currently let alone a comprehensive regulatory framework that at least provides some assurances of safety, functionality and redundancy.  Half of these half baked and completely immature systems are operating on roadways specifically because the NTHSA and state regulators have basically shrugged their shoulders even trying to regulate it currently."
+12,2020-10-10,g8d0knp,TangerineDue3729,investing,That just means that Tesla “autopilot” is very good at driving on highway roads (mainly)... which is very different than saying self driving cars are “already better than humans”.
+13,2020-10-10,g8c3olm,skpl,investing,"One thing , [Tesla does use lidar for validation](https://i.imgur.com/angPlOp.jpg) ( matching their AI's internal representation with the ground truth from the lidar ) but doesn't use it on production cars for cost and scalability reasons."
+14,2020-10-11,g8gdyz4,nikofeyn,investing,">	there’s really no reason a bunch of overlapping cameras shouldn’t be able to handle self driving in the majority of situations.
+
+computer vision is one of the hardest fields out there. it is no where near capable of this level. this sentiment sounds suspiciously like that of general AI back in the 50s and 60s.
+
+>	Now... his insistence on doing this without the benefit of other sensors like LIDAR that could literally only help, that part makes no sense to me.
+
+i’m confused. you say only cameras are needed and musk is right and then say lidar could help?"
+15,2020-10-10,g8cvkrt,a_robot_kicker,investing,Right. We actually now have enough data to say self driving systems are much less safe than a human driver. This isn't speculation anymore. The numbers are even worse when you include tesla autopilot.
+16,2020-10-10,g8c5w8g,_Karma_0,investing,Tesla’s have already gotten very good at spotting traffic lights. Look at their traffic light recognition update they have their cars several months ago.
+17,2020-10-10,g8cdyk9,proverbialbunny,investing,"I don't know about Tesla, but all of the self driving car companies I have explored and worked with do not rely on markings."
+18,2020-10-10,g8caxgj,proverbialbunny,investing,">Uh didn't the Uber car hit that cyclist because the model wasn't built to even consider the idea that a cyclist might be crossing a road anywhere other than at an intersection?
+
+That's absurd.  If something gets in the road, the car needs to brake.  Part of the earlier self driving tech was identifying what was safe to drive over like a plastic bag or cardboard box.
+
+On the other end there is that Tesla accident where a semi was in the road and it didn't brake because the Tesla didn't detect any movement and it lined up with the skyline so it thought it was sky."
+19,2020-10-10,g8dkwnp,I-am-ocean,investing,Elon musk said that full self driving would be released in a month
+20,2020-10-10,g8c4x8b,_Karma_0,investing,"Look at Tesla’s most recent self driving report, they release one every quarter with statistics on how safe it is."
+21,2020-10-10,g8dypaq,GhostReddit,investing,">People don't care that hundreds of thousands of accidents happen every single day with a person behind the wheel, but the moment it's a machine you can bet it will be turned into a political issue.
+
+Not just a political issue but there's a practical limit how much you can take from someone who fucks up.
+
+If your self driving Tesla kills some kid we all know they have billions available."
+22,2020-10-10,g8c2zqe,Alilttotheleft,investing,"I think... in theory, Tesla and Musk have it right.
+
+Elon likes to say, “break it down to the physics of why it can’t be done.” From that perspective, Tesla Vision is spot on - there’s really no reason a bunch of overlapping cameras shouldn’t be able to handle self driving in the majority of situations. With the neural network and billions of miles of data they have, this feels like the approach to self-driving that will best handle all those weird outlier situations.
+
+Now... his insistence on doing this without the benefit of other sensors like LIDAR that could literally only help, that part makes no sense to me.
+
+I’ve driven most of the modern driver assist programs and Autopilot to me feels to be the most complete and most effective solution out there at the moment. It’s only getting better with updates and miles of data thanks to that always-on connection to Tesla which is another HUGE advantage that other manufacturers just don’t have."
+23,2020-10-10,g8ceuaw,GnRgr2,investing,Theres plenty of videos of teslas driving on curved roads
+24,2020-10-10,g8by8om,caseyr001,investing,"Waymo is significantly safer. It is way safer than human. With that said, it's been trained for years in a smallish geofenced area in Phoenix, and it uses a bunch of expensive equipment including lidar, radar, cameras, ai, and more. Tesla is taking a different approach. And right now they aren't as safe as waymo because they want to do it cheaply and scalable (just cameras and ai), they also want to do it everywhere, not just in a geofenced region. 
+
+So if I didn't have access to the steering wheel, the only self driving service I would trust putting my family in right now is Waymo. But if I were to place a bet on who wins the autonomous future, my bet is on Tesla hands down."
+25,2020-10-10,g8c660q,_Karma_0,investing,Source? Tesla releases self driving reports every quarter on these statistics. It is much safer.
+26,2020-10-10,g8cdkb9,CaptainCanuck93,investing,"It seems that a lot of the systems are based on road markings, particularly Tesla's camera based systems. Doesn't this become problematic for half the target market having snow on the ground part of the year?"
+27,2020-10-11,g8ejxtc,0b01000101,investing,"I work in the same field. There's a more fundamental problem, I think, to striving for a certain level of reliability: other humans. I know if I pull up to stop sign with and there's a Tesla that has right of way, I don't need to wait and can just go because the Tesla WILL stop. The chance that a person might not stop is my incentive to play by the rules."
+28,2020-10-10,g8cx0dv,a_robot_kicker,investing,"Data science is only one aspect of the robotics problem. There are deeper systems integration problems that make the system less reliable than the ML algorithms feeding the perception stack. If you look at recent crash reports from uber and tesla the problems have been stuff like overexposed sensors, faulty emergency brake software, distracted safety drivers, etc. So far the crash rate for self driving cars has been a few times higher than the average human."
+29,2020-10-11,g8efp9b,dc_chilling17,investing,"Self driving cars do not drive better than humans.
+
+Just because Tesla claims that there cars drove x million miles without a crash on “autopilot” is far different than a real world scenario.
+
+Honestly any “self driving” stats are bullshit because they aren’t driving in busy cities during rush hour. They also don’t have drunks weighing down the stats.
+
+That’s not to say they won’t one day be better than humans, but for now, it’s not close. Give me an attentive human any day"
+30,2020-10-10,g8cd9yp,georgehop7,investing,Everytime I see someone asleep in a Tesla I think about Elon falling into a volcano.
+31,2020-10-11,g8ejrjp,bkorsedal,investing,"We are on the upside after the bottom of the trough of disillusionment.  Goggle has a limited self drive going on in AZ, but they have a fragile system.  It requires precise mapping and stuff.  It can't think on the fly or deal with unknown.  I think Tesla will achieve it first, within a year or two."
+32,2020-10-10,g8bsgsv,pinshot1,investing,"What you say is true. Many companies involved with self driving cars are only involved to the minimum extent possible to maintain share price. The companies that were at one time really serious about it are Waymo, Uber and Cruise. I leave Tesla out intentionally because I have no idea if Musk is right about vision vs lidar.
+
+Anyway, after Uber killed the homeless lady they were pretty much out of the race. Unable to catch back up. Uber has been looking for an opportunity to spin off ATG for years and I believe this will happen within the next two months.
+
+Waymo has won the self driving taxi race IMO. Cruise may eventually have a self drive product but I don’t believe they will enter taxi market.
+
+As for Tesla, IF Musk is right about vision, when FSD hits it will be revolutionary. However, I believe we are ten years away from realizing the benefits to the full extent.
+
+For fun, mark my post to come back and see if my Uber tip pans out :-)"
+33,2020-10-10,g8d0gdx,_WhatchaDoin_,investing,"I am looking forward to self driving cars, but they are not ready for prime time yet.
+
+Sure, Waymo is testing in a special area that is very controlled, very small, where not much will happen. They can keep the road layout in memory and in sync with real time (with probably the city planners in touch with them regularly to cover for road work or any change).
+
+Although, it is a city, and can handle many edge cases. It is still only a small percentage in terms of the real world and the vast majority of edge cases. Phoenix is nice in terms of weather, not much rain, snow, wind, heavy traffic, etc. Not many deers crossing, not many mattresses in the middle of the highway. Etc...
+
+Today, I can still lock a self driving car with two card boxes. One in front and one in back. Car would not be able to move.
+
+Numbers from Tesla should not be interpreted at face value, they have a huge selection bias. They compare against the administration numbers (1 accident per 500k miles in average, Tesla is around 1 acc per 4m miles), so it is bound to be much better. An average car is worth $10k, versus $50k to $100k for Tesla. Not the same customers, not the same behavior, not the same location, or care. It shows with the rate for Tesla without autopilot or safety in, which is around 1 acc by 1.3m miles. (So de facto, Tesla customers will have 2.5x less accident - selection bias). Now you compare 4m against this 1.3m (or 2.2m with safety on), and auto-pilot is twice as safe. Well, except that auto-pilot is only enabled in easy mode, highways, where it is easy to add many miles to the numbers. The harder mode, where all the edge cases are, is bound to have more accidents, and not have as many miles at a time. A lot of small drives will statistically increase the number of accidents (most accidents are few miles from where you live because that’s where you drive the most, but you would not and could not enable autopilot there)."
+34,2020-10-10,g8bm3pz,pasta4breakfast,investing,Hmm everyone seems to be under the impression that autonomous driving is already 99% better than human. Yet tesla's latest update is still unable to not crash itself on curved roads. Can't speak for waymo though.
+35,2020-10-10,g8d5jwg,anthonyjh21,investing,"Yeah I think there's definitely a bias, be it from not investing or having their $6 Ford with a high dividend going no where. People don't like change. Stick to what you know. 
+
+Maybe it's that the timeline isn't exactly as Musk outlines. Or that he has pet projects. Or he's not affable. I think people worry about things that don't matter. He has a track record of getting things done. Hello PayPal and SpaceX. If he's contributing to society I personally don't care how he presents himself.
+
+Either way, Tesla is going to fundamentally change the world for the better which will impact everyone on this planet equally. We should all be hopeful of this, however most people (here or otherwise) can't get past Tesla being more than a car company."
+36,2020-10-10,g8cgy0c,rexmakesbeats,investing,"Pretty sad how oblivious people are to what Tesla is  and will be accomplishing.
+
+Maybe they are just salty they didn’t get in on Tesla before it went parabolic lol"
+37,2020-10-10,g8c8wtm,anthonyjh21,investing,"I've tried to defend Tesla in this group until I'm blue in the face, doesn't matter, I'm sure my average vote/upvote in this sub is negative. 
+
+I think there's a few reasons people give. Either they don't believe Tesla will get it done, that competition is coming (Gordon argument) or that the price is too high (just a car company, p/e, blah blah)."
+38,2020-10-10,g8aqime,gank_me_plz,investing,"Tesla was sort of a litmus test for the r/investing hive-mind and they were a 100% wrong lol 
+
+Isn't it ironic that r/Wallstreetbets is now mocking r/Investing"
+39,2020-10-10,g8c7erl,rexmakesbeats,investing,Why the hate on Tesla?  It’s leading the way to revolutionizing not just the auto industry but disrupting energy/utilities as well
+40,2020-10-10,g8bu05j,Sf766,investing,Buy tsla
+41,2020-10-10,g8aewe8,anthonyjh21,investing,"Have balls coming to this sub with TSLA. Don't you know most here dislike it?
+
+I'll give you an upvote but it won't matter, you'll get no where with this."
+42,2020-10-10,g8ayzkw,WittyFault,investing,"BLUF:  You don't seem knowledgeable about AI technology.  I would avoid using any notions you have of understanding AI as a basis for investing.  Some specific point:
+
+>From what I read, it is hard to do complex AI technology. 
+
+I would think it is **hard** to do anything **complex**.  That just seems like defining terms.
+
+>If you look at the successful AI technology today: Self driving by TESLA ... it is the extremely simple AI technology that is done at an incredibly fast pace 
+
+Self driving is actually one of (if not the) most complex AI technologies being heavily funded today.  
+
+
+>More recently, the most successful complex AI technology story is Tik Tok
+
+Painting TikTok as an AI company is giving them way too much credit.  TikTok is a social media company... key to social media company is network effects not some magical AI.  
+
+
+>Tik tok search AI is vastly superior to anything in the US at this time.
+
+Is that true?  Is TikTok search better than Google?  Tik Tok ""search AI"" is very similar to Netflix AI, Youtube AI, Facebook AI, Amazon AI, etc.  It is a recommendation engine.   
+
+Microsoft wanted it because that is the core of TikTok... that is where advertisers/users are connected and where the valuable data flows.  If you don't own that, you are essentially an app store front for TikTok.  
+
+
+>My question is Lemonade insurance claims using Complex AI technology to detect fraud. Is this true?
+
+Sure they are using AI to detect fraud.  Here is a secret, every other insurance company out there is using AI to detect fraud to some degree.  Go to Indeed and search ""data scientist insurance"" and you will see a long list of insurance companies hiring Masters/PhDs for machine learning jobs.
+
+
+Also, this isn't a very ""complex"" application of AI.  The hardest part of real world AI is the data.  Insurance companies have a very good set of data that is already human curated with the appropriate outcome.
+
+
+>I find it unlikely that Lemonade has achieved this. If they have, they are worth their stock price for sure. 
+
+What analysis have you done to support their current stock price?"
+0,2020-10-11,g8g72m0,MajesticGuava,investing,Crisper is solid. Itll probably reach $300 in a few years. Tsla most certainly will drop. Square is overvalued rn but I can see it doing well. They will probably rebalance to better ratios to adjust for PE volatility. So it should still go up. The problem is will the market outpace it?
+1,2020-10-11,g8g5m5y,MajesticGuava,investing,"Do you not look at the top holdings of ETFs you invest in?
+TSLA, square, roku, etc. All are quite volatile and have not established their markets yet. Risky plays. Their PEs are astronomical."
+2,2020-10-11,g8hls8x,Sf766,investing,Buy tsla
+3,2020-10-12,g8jrdfp,imunfair,investing,"> Tesla didn't do shit 2014-2018 and she still outperformed. 
+
+Apparently we're calling 50-100% gains in 4 years or less doing nothing now. /eyeroll
+
+>ARKG and ARKF have 0 Tesla exposure and have crushed it.
+
+ARKG and ARKF haven't been around long and have only been getting gains since march when we've had the steepest bull market in history, which would be expected for high beta."
+4,2020-10-12,g8kcoad,mightyduck19,investing,"I definitely agree that they got lucky as fuck with Tesla. I would actually be really curious to see what the fund weighting was a year or two back and my guess is that TSLA wouldn't be the 10% that is is now in most of their funds. I'm guessing they have a weighting cap and they have been forced to trim their TSLA position due to that. 
+
+Anyway, I get what your saying but I don't really think that the fun results over the past year validate or invalidate her thesis at all. But I think that the obvious changes occurring in the world with regard to the pace of tech adoption right now do somewhat validate her thesis. As I said, I fully expect all those funds to go through a serious route over the next year or two and I see it as a great opportunity to scale in."
+5,2020-10-12,g8jpvsr,Sixers0321,investing,"Tesla didn't do shit 2014-2018 and she still outperformed.  
+
+ARKG and ARKF have 0 Tesla exposure and have crushed it.
+
+Congrats, you've proven yourself clueless."
+6,2020-10-11,g8fn55r,Sf766,investing,Buy tsla
+7,2020-10-11,g8fol2j,mprey_,investing,I think the best ARK fund is ARKG. All the other shit is too heavily driven by overvalued SaaS companies and Tesla
+8,2020-10-11,g8h623z,czarchastic,investing,"Works great on stocks. I trimmed 60% of my TSLA early sept after the runup, then bought more when it dropped below 390. It wasn’t really any guesswork, just maintaining a target allocation."
+9,2020-10-11,g8hlloi,Sf766,investing,Just buy tsla
+10,2020-10-11,g8gjrpo,jryek,investing,"The advantage of retail investors is there is no mandate in term of your asset allocation unlike those funds. If you allocate 10% to a stocks and it outgrew your portfolio to let's say 50%, I think it is a good thing maybe by that time you can trim some for other positions. I bought TSLA originally 20% of my portfolio (very high but high conviction) , it outgrew to 70% of my portfolio and I didn't sell a single share untill it hit 80% recently then I sold some bring it down to 65%. I think rigid asset allocation should be avoid because it become constraints in how flexible you can be. Good luck !"
+11,2020-10-11,g8gfvsj,sogladatwork,investing,"I made a small investment into TSLA a few years ago. Needless to say, it ran up and became 20% of my portfolio. I sold off a third of my shares at $470 and bought SQ during the recent tech dip. Happy as punch to own some SQ and got a great price for my TSLA. 
+
+Winners don’t keep winning at the same rate forever. Diversity is good."
+12,2020-10-11,g8iezw6,meeni131,investing,How freaking long and how bad of publicity does it need to be for Tesla to take action? What is this service??
+13,2020-10-13,g8n4e9t,babyshanks,investing,"But the point is renewables are not a growing market. They appear to be, based on the perception of the public, which is based on the lies of politicians.
+
+As we transition to renewables, we will start to realise how unreliable they are and how destructive they are to our immediate environment. California is having brownouts because the renewable energy supply they are hellbent on transitioning to just doesn’t stand up to the fossil fuel supply. Renewables are more expensive than we think, cause more damage than we think, and are made and maintained from entirely in unrenewable materials and processes.
+
+Another thing.. passenger cars make up just 6% of our co2 emissions. If we transition to EV’s, we are not reducing our co2 emissions.. we are actually increasing them because we emit more co2 through the generation of the electricity used to charge these EV’s than we do through the use of internal combustion engines. We are not getting rid of the problem, we are just moving it back down the production line and magnifying it.
+
+WTI will lose value because the public believe oil is bad. The pressure the leftist are putting on companies like BP to go green are forcing them to make these outrageous targets that will ultimately kill their business. This will increase the price of Brent oil in the long term.
+
+I’m not sure how V2G will do anything productive. It allows you to sell the electricity stored in your car’s battery back to the grid.. well now you have no car to drive. 
+
+You will need a constant supply of copper, silver, nickel, iron ore and uranium if you want clean energy (plus many more rare earth metals). You will need coal, oil and gas to mine, transport and manufacture the equipment required to produce this “renewable” energy. This equipment will require a constant supply of these metals for maintenance and replacements.
+
+So over the next, let’s say, 10 years for argument sake. You’re going to see a reduction in the supply of gas, oil, and coal as we use them to mine the materials needed for this supposedly “green” revolution we are heading toward. This will increase the price of these commodities. After 10 years the public may realise that renewables aren’t actually that renewable and that the science and maths behind anthropogenic climate change doesn’t quite make sense anymore.. and we will shift back to our reliance on coal, oil and gas.. which the world absolutely relies on. Which will increase the demand and therefore the price.
+
+Tesla’s batteries are good if you need to supply a few thousand homes for a couple of hours.. not the entirety of Europe, the factories and the electric cars forever..
+
+Again.. buy rare earth metals and commodities while they are cheap. Is it so hard to believe the politicians are lying to you? Do you really think all these Russian and Middle Eastern oil tycoons are investing in Tesla and Google? Or are they investing in mining companies and commodities? Who wins at the end of all this? The public or the elites?
+
+Copy the investments of the elites."
+14,2020-10-11,g8i2oau,EngineNerding,investing,"Title is bullshit. They tarped the roof, but it leaked. Tesla admitted their mistake and settled with the homeowner on fixing the damage and finishing the install."
+15,2020-10-12,g8l1zbt,HawkEy3,investing,"Good investments are usually growing markets, no? Yes, fossil fuels aren't going away in the next 10 years but they will not grow and eventually be in decline, [even BP thinks so](https://www.bloomberg.com/news/articles/2020-09-17/bp-sees-peak-oil-even-without-major-new-laws-on-climate-change)
+
+Yes, politicians goals are too ambitious but at least it shows the direction the world wants to go. But it certainly will take longer than 10 years. 
+
+I don't see how the UK would need the global output of copper just to upgrade their grid? You have a source for this? Especially if EVs are used intelligently with V2G they stabilise the grid and decrease the need for grid upgrades
+
+Temporary local environment damage from mining is a much much smaller price to pay than lasting global climate change with potentially catastrophic outcome. Also, cobalt isn't need any longer for batteries. And energy for mining is not a problem when the machines are electric which is produced by renewables. 
+
+I assure you we have the technology and material to make it happen, it is happening, [a dozen big battery factories are being build in Europe](https://www.pv-magazine.com/2019/07/04/recharging-economies-ev-battery-manufacturing-outlook-for-europe/). Tesla alone plans to build 100GWh capacity in two years, enough for a million cars, by 2030 they want to be at 3TWh."
+16,2020-10-11,g8hzlde,meeni131,investing,"[https://electrek.co/2020/10/06/tesla-solar-roof-without-roof-tarps-nightmare/](https://electrek.co/2020/10/06/tesla-solar-roof-without-roof-tarps-nightmare/)  
+innovation..."
+17,2020-10-11,g8hzkn3,sprcow,investing,"Wow, you're not joking. We investigated Tesla roof a few years ago and ended up installing Panels instead, because the roof cost was like $60k. Now they're quoting a 10kw system at $31k, which is not that much more than we paid for our 8kw panel array.
+
+https://www.tesla.com/solarroof/design"
+18,2020-10-11,g8hujut,EngineNerding,investing,Tesla just dropped the price on them by a huge amount last month. A 10kW system is now the same cost for me as an install of plain panels was a year ago.
+19,2020-10-11,g8gxebi,pickandpray,investing,"Peaking plants are a terrible waste of money.  I think the tsla power walls are a better solution. Decentralized power banks that serve dual purpose and paid by the owner of the power bank.
+
+The utility pays the owner a small fee to share their energy.
+
+Decentralized power generation represents a great way forward as installation costs continue to fall. The advantage of redundancy is huge"
+20,2020-10-11,g8irea7,lobster_johnson,investing,"Conversely, that's exactly why I went with ICLN.
+
+PBW holds a lot of ""noise"": Tesla, Cree, Air Products & Chemicals (which is deep in gas and chemicals), Gentherm (which makes car seat heating systems), Quanta Services, and other companies that are only peripherally related to clean energy.
+
+ICLN's holdings are almost entirely companies whose business is renewable energy. Some other benefits: 50/50 US/international split; holdings are a little beefier (more mid-cap; PBW is all small/micro-cap); and slightly healthier financials."
+21,2020-10-11,g8hsjrn,InquisitorCOC,investing,[Tesla Powerpack in Australia](https://www.popularmechanics.com/science/a31350880/elon-musk-battery-farm/)
+22,2020-10-11,g8fsm7v,atrueretard,investing,all electric producing energy go up including nuclear. Electricty demand will go to the moon as electric vehicles tesla roll out and r/bitcoin mining increase
+23,2020-10-11,g8hsjha,EngineNerding,investing,Tesla's solar shingles have the potential to take on the entire roofing industry...
+24,2020-10-11,g8fdfjg,Potsandpansman,investing,"Thanks for sharing! I’ll check this out. Been looking for more good companies in this space, besides TSLA"
+25,2020-10-11,g8g5q18,occamsrazorben,investing,"You seem to have done some research. I have a little ICLN but looking at broadening my exposure. I dont want anything with a lot of TSLA as already have exposure in other ETFs. TAN is quite concentrated, but I’m liking the look of PBW and their methodology for inclusion in the index - any thoughts on PBW?
+
+https://wildershares.com/about.php"
+26,2020-10-11,g8fmq2d,upvotemeok,investing,Cause tsla
+27,2020-10-12,g8l72pg,jaydean20,investing,"It's by NO means the main reason, but I think a big contributor was Tesla's recent discussions of their efforts to make renewables cheaper AND more efficient on a fundamental level; regardless of what it means specifically for their individual stock and status, Tesla is a trendsetter and major pioneer of using renewables in new and innovating ways. As they develop, the rest of the renewables industry is sure to follow suit."
+28,2020-10-11,g8hh8i7,Wearahat02,investing,"It can only be because people are speculating that renewable energy companies have a good future.
+
+The present financial data for renewable energy companies are terrible.
+
+Very low margins relative to tech companies.
+
+Lower growth than tech companies.
+
+Very little ""value add"" and ""pricing power"" - concepts which I believe are core to any good investment.
+
+People sometimes get me wrong. I can believe renewables should serve as much of global energy consumption as possible, and think that's a good thing to tackle climate change. Whether I think investing in renewable companies is a good idea is another issue entirely.
+
+I've invested in commodity companies in the past and never again.
+
+There's no reason for consumers to choose one energy company over another - the output is homogenous so they have no control of pricing of product.
+
+All they can do is increase efficiency by cutting costs to raise profits.
+
+Every energy company does that and it's a never ending race to the bottom.
+
+That's not a great business model.
+
+The renewable companies in USA aren't making any profit and have poor margins.
+
+People hate on Tesla for being overvalued but it actually produces a value added product rather than a commodity or low value add solar installation/ maintenance.
+
+I'd rather invest in something like Tesla, which is a product that doesn't contribute to climate change than ICE cars while running, even though it's expensive, because it actually has pricing power and value add."
+29,2020-10-11,g8gvyvy,pickandpray,investing,"I suspect some of the positive changes to the environment during quarantine opened people's eyes. There also is a very strong likelihood of some crossover from tsla ride.
+
+I held pbw at various periods for over a decade and sold it before it ever really moved very much"
+30,2020-10-11,g8fr64f,Vast_Cricket,investing,Hype partly there are not much good news other than Tesla sales. Everything is overpriced and react to electric car and materials. Next month or two the hype will be over other sector. May be 5 G phones.
+31,2020-10-11,g8f0svi,CarRamRob,investing,"There is no “signal” in stock splits. 
+
+Tesla and Apple are the outliers, not the rule. 
+
+Saying that: 
+Stocks that split generally are doing well (going up) and continue to do so. 
+Stocks that reverse split are generally doing poor (going down) and continue to do so."
+0,2020-10-12,g8lsmxi,FitBlue01,investing,"so as a newb.... trades are the quick ones... google, apple, tesla, etc.
+
+investing... i assume long term would be VO, VOO, QQQ, or aything related to S&P?"
+1,2020-10-12,g8lphu0,DT02178,investing,"I did before I learned investing made me more than trading. I own funds, bonds and equity, for most of our assets. I still have a few trades that turned into investments, Google, Apple, Tesla have made us a bunch of money."
+2,2020-10-12,g8kvf6o,_tts,investing,"i am 30 years till retirement but have been invested in tech growth stock - $tsla, $twlo, $net, $fsly, $crwd. what’s the advise?"
+3,2020-10-12,g8ln0rh,Danielat7,investing,"Agreed. FOMO is a big issue for most investors and can lead to knee-jerk reactions that end up losing money.
+
+Right now, it is obvious that Tesla is dominating the EV world. Big car names (Mercedes, Mustang, Volvo, Porsche) are getting in too. However, the field is still young and there is room for a new guy to get in. At an IPO in this field, its high risk/high reward. Do your DD, decide if its a good risk, and determine your next steps. But don't think you'll make millions off going with an established name."
+4,2020-10-12,g8llxhi,killacam1187,investing,"I agree with the first half of your statement, disagree with the 2nd half. You're worried about missing out on money, and to me at this stage in the game, when you buy shares in this company its a massive gamble and barely an investment. Tesla is lightyears ahead and in the exact same playing field as lordstown. All I'm saying is tread very carefully and don't rush into things with fear of missing out."
+5,2020-10-12,g8llz76,Torlek1,investing,Tesla has no intention of competing in the niche EV sub-market of commercial pickup trucks.
+6,2020-10-12,g8lphqi,cloudone,investing,No need to compete with Tesla. They just need to beat Ford F150.
+7,2020-10-12,g8ledp0,killacam1187,investing,"I look at this picture, then I look at Teslas factory... How can you ever expect them to be on Teslas level down the road?"
+0,2020-10-13,g8o8h8q,Sf766,investing,Buy tsla
+1,2020-10-13,g8nebnm,MohJeex,investing,TSLA or bust.
+2,2020-10-13,g8nchsq,Monir5265,investing,"Well I agree that united health care could do it, but they claimed that they already have an advantage in terms of data and growth. Plus, we could also compare United Health Care in a way where it’s like the GM and FORD trying to compete with Tesla."
+3,2020-10-14,g8swnsg,SamuraiHelmet,investing,"The tricky thing about swapping is also standardization and integration. Conventional batteries all have standard sizes and voltages, but no manufacturer yet has committed to a universal port/form factor/electrical property. And in vehicles like Priuses or Tesla's, swapping out batteries is a task that takes a meaningful amount of time because of how embedded their batteries are. 
+
+If a battery swap station has to keep 10 proprietary types of battery on hand to service potentially 200 (low ball) vehicles per day at 10-30 minutes per battery swap, that's a lot of staff, a lot of real estate, and most importantly in my mind, a huge buy in on the part of the service station/manufacturer. At 20K a pop, that's 40MM worth of batteries on hand. Which feels unrealistic to me."
+4,2020-10-13,g8q6pl7,BSP9000,investing,"I remember an Israeli company pitching the battery swap idea, like 10 years ago. It might be the answer, but I don't know who will pull it off.
+
+It's tricky, if your car is 30k and the batteries are 20k of that, you don't want to swap out your new battery for a used one. So, you'd need a contract with one company. You need consistency across brands -- right now I can fill up my gas car at any gas station, I don't need to go find my brand of battery swapping.
+
+So, maybe you get one brand that takes over? Or you get swapping stations that carry multiple brands and you show up hoping they have one in stock for you?
+
+Tesla's already priced bigger than all the other car manufacturers, so... not obvious you make money even if they take over all the car business. 
+
+If it's somebody else, like I said, good on you if you can pick emerging tech companies better than I can.
+
+I also remember trying to invest in green energy, 10 years ago, and getting crushed. And I remember people telling me 10 years ago that self driving cars were imminent. Still no luck there. Maybe this time's different."
+5,2020-10-13,g8ohpnb,imunfair,investing,"> I live in an apartment with street parking. Couldn't charge a tesla even if i could afford one. Is CA gonna come install chargers for every parking spot on my street? And at my job, too?
+
+I agree with your point but I believe what will happen is the big box chains like Walmart will roll out chargers in their parking lots for charging while shopping, and that will cover most suburban areas.
+
+Urban areas without much parking will probably have to be implemented by the municipalities themselves because they own the majority of the parking. But I could see them giving a parking meter type contract to a company like Chargepoint to implement it for them. Probably with a smaller up front payment to fund manufacture but not a direct sale like they would normally do.
+
+I'm still long oil companies for the foreseeable future though. I think it'll take a minimum of 5-10 years to fully roll out electric charging. Longer to convert most consumers to new cars."
+6,2020-10-13,g8ob7p7,BSP9000,investing,"I live in an apartment with street parking. Couldn't charge a tesla even if i could afford one. Is CA gonna come install chargers for every parking spot on my street? And at my job, too?
+
+And you think other states are gonna follow through? Every rural conservative with an f150 is gonna get a cybertruck?
+
+I drove cross country, this summer. Gasoline is great -- go 400 miles, refuel in 5 minutes, keep driving. Is CA gonna install charging stations across the country, that recharge my car in 5 minutes?
+
+Maybe there's green tech I don't know about. But I'm a big skeptic that oil's gonna die that fast. The California law doesn't even cover heavy trucks, which are even harder to electrify.
+
+I think, oil demand is way down from covid. US and Europe go back most of the way to normal by end of 2021 with a vaccine. Developed world keeps growing for a while, uses simple older technologies. Oil is flat or growing for another 10 years, at least, before long term decline.
+
+Natural gas should probably keep growing for a few decades, as it complements intermittent green power.
+
+Where's that leave stocks? I doubt exxon stays at 35. Not sure if it ever goes back to 80, though.
+
+I wouldn't sell at a loss, I would wait for vaccine and recovery.
+
+If you can pick small cap green tech companies that will grow to eventually take over, you'll do even better than that. But not sure I'm smart enough to do that. Buying cyclicals during a downturn and waiting a year or two seems a much easier way to make money."
+0,2020-10-14,g8rrqcm,DDD50_,investing,"NW $4.9 million
+
+Real Estate: 42%
+Equities: 42%
+Gold: 10%
+Crypto: 2%
+Rest in cash 
+
+My advice: always pretend you’re poor, it’s the stoic way.
+
+EDIT: equity portfolio is mostly AMZN TTD TSLA MSFT SHOP FB AAPL GOOGL ISRG NVDA"
+1,2020-10-14,g8rz1j7,lonerun95,investing,"TSLA 11/20 600calls, technicals are there and earnings run up will happen. sell before earnings to secure profits (10/21 after hours is earnings). good luck lol"
+2,2020-10-14,g8rjbke,stoked_7,investing,"Zero is a strong word, there are ways to track trades of crypto. Let's give it a margin of error of 20% and say $60 Billion. Bitcoin rising from $3,000 to $11,000 since 2019 has value to those who made that choice. There are many people who choose to hold money in crypto and have successfully made money. Many could make the interpretation that it is no different than holding Tesla and seeing a meteoric rise for little basis of reason, a gamble."
+3,2020-10-14,g8rxmmt,oarabbus,investing,">What other great tech out is barely used by a majority of the world like crypto? 
+
+Since so many people are going the TSLA route, electric cars. 
+
+Another one is gene editing. 
+
+Off the top of my head let's throw in virtual reality, and also 3d printing. 
+
+I'm going to assume your comment was meant jokingly."
+4,2020-10-14,g8s27yg,summertime_taco,investing,Of course I had Tesla you would have to have been insane not to have owned it. I'm out of it at this point but I'll probably dip back in again in a year or two.
+5,2020-10-14,g8ri5ax,oarabbus,investing,">You guys acting like cryptos are the only option to satiate our gambling urges is... just inaccurate.
+
+
+
+What's inaccurate is this claim of yours, which no one made anywhere in this topic.
+
+>If I wanted ""a highly volatile, speculative asset"", I would buy TSLA, or options on some meme stock
+
+Good for you. Go buy TSLA then. BTW, bitcoin outperformed tesla in the last decade (2010-2019) by something absurd, like over 10,000%.
+
+edit: This comment clearly ruffled some feathers. I'm not saying bitcoin is a good investment, or that it'll continue to rise in the future. What I stated is that the returns of bitcoin make TSLA look absolutely pedestrian and unimpressive over the last decade, or the last 5 years. That's a fact, not an opinion. If you think it's stupid to buy bitcoin over Tesla, then buy Tesla and avoid BTC.  But over any reasonable-length, non-cherry-picked time horizon, BTC out-returns TSLA by orders of magnitude."
+6,2020-10-14,g8s6nlh,iopq,investing,"TSLA has a high beta, Bitcoin has a very low beta because it's not correlated to tech stocks that much.
+
+It's not about gambling, it's about modern portfolio theory"
+7,2020-10-14,g8se5u9,Buttershine_Beta,investing,"Tsla has a p/e of 900 and you claim
+
+>At least things are based on economic activity that produce value"
+8,2020-10-14,g8s0dlo,Sith_ari,investing,Tesla grew by 240% last 6 Months. Hope you bought it because in 5 years the company gonna be worth 85 quadrillions
+9,2020-10-14,g8rhzwk,Fonference_Cun,investing,"If I wanted ""a highly volatile, speculative asset"", I would buy TSLA, or options on some meme stock. At least these things are based on actual economic activities that produce value. 
+
+You guys acting like cryptos are the only option to satiate our gambling urges is... just inaccurate."
+0,2020-10-15,g8v7vg3,PReasy319,investing,"Avoid NKLA like the plague. Invest in TSLA, NIO, HYLN... literally anyone BUT NKLA."
+1,2020-10-15,g8v9d9n,BigDikChikdotCom,investing,I dropped AAL from list cause its too risky. So 2 airlines 2 banks 1 retailer and one oil. But I might buy  tesla instead of oil
+2,2020-10-15,g8wv901,DoIAnnoyYouBadly,investing,"Totally agree with you.  I think it’s because no one believe virgin can do it and with Nikola people think it will be the next tesla which if anything is more difficult.
+
+Once we get a successful powered test flights and especially more so when they fly Richard people will know it’s the real deal.  A 10x company is a possibility, especially if they can show there business plan to scale it.
+
+$10-$50 billion market cap is reasonable, but only if they can at least commercialize suborbital space tourism and present a business plan to scale the operations."
+0,2020-10-16,g8zpbxq,SorcerousSinner,investing,"You just got unlucky, bro.
+
+You need to secure a loan or maybe ask friends and parents for some money.
+
+And then win back your losses plus some extra with more trading crypto
+
+A good attitude to have is this one: When you want to do some trade and there is someone on the other side willing to do the trade with you, that person is typically dumber and less well informed than you are. They are probably not aware of the latest news article on crypto or maybe some Elon Musk tweet, or they can't interpret it correctly.  But you are, and you can and that's why on average you make money even though chance may screw up some times."
+1,2020-10-16,g8zpy7j,CliftonHanger001,investing,"You learned a valuable lesson at the ripe young age of 26. I know it's gut wrenching but take this lesson and move forward - you have what it takes to be super successful. To wit:
+
+\-You have incredible work ethic work hard and save $40K in a year
+
+\-You have the gagoozies to take a chance
+
+This is a winning combination. The future is bright - you will be successful. My only advice is to invest in things you understand. For me it's great companies like Apple, Tesla, Square, etc. Crypto is great for buying drugs online but probs not for investing."
+2,2020-10-16,g8zc51b,schmint,investing,"Hey I'm not much older than you are, and also started with crypto ""investing"" a few years ago when it was even more volatile. Got hooked into daytrading which while fun definitely hurt my overall profits.
+
+I have since exited crypto in 2018, and post the stock market crash in March, I have been regularly cost averaging into ETFs. Sure I gamble a small portion of my portfolio in Tesla and trendy tech stocks, but if anything crypto taught me to keep my feet on the ground and play the long game.
+
+Point is, it may seem like the end of the world now but you've learnt a valuable lesson that no book could really teach. Some people learn this over 10 years of mistakes in the stock or gambling markets, and some fare worst when they learn it at 60 with their retirement funds. Chin up, learn the lessons, and start investing in a way that better suits your life going forward. Years down the road you can look back at this and realise it was just a small bump in the road. All the best buddy."
+3,2020-10-16,g90cop5,Nutmasher,investing,"I don't disagree with traditional acct setups that they suck.
+
+If you're lucky and your company has a brokerage option (mine is with Fidelity), definitely convert the acct to brokerage and buy equities (top 5-10 nasdaq and s&p companies) or index funds.  
+
+If you learn trading (conservative, not risky), you could parlay the 401k into many many more bones than the traditional mutual fund or target funds.  For example, TSLA went up 5x from march to august.  Gold and bitcoin are doing well since march also.  Yes, trading.  Traditional buy hold is dead money.  Market at tops.  Need to realize gains when able and go to cash for pullbacks (5-40%).  Scale back in slowly every 5% drop in index.
+
+Another option is to learn to time the market and trade in and out of the target funds.  Like above, at all time highs, need to get to cash and scale back in on 5% index pullbacks.  Only the target funds allowed trading in the past.  Got my hand slapped for trading a mutual fund 10y ago.
+
+Either way just be sure to go to cash if this market gets even more crazy.  Could be a blow off top then crash again (-20-30%).  Not going to happen in 2020, but very possible in 2021-2022.  Price is back to Feb highs and market was overbought then, too.
+
+Just my opinion.  You need a good understanding of market gyrations and seasonality to accomplish this effectively.  Cash is a position, too,"
+4,2020-10-16,g8zz6bk,Sf766,investing,401k returns suck. Definitely contribute to get the match. But every other penny should go into tsla.
