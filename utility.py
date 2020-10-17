@@ -1,6 +1,7 @@
 from datetime import date
 import yfinance as yf
 import datetime
+import pandas as pd
 
 
 def read_settings(filename: str) -> list:
@@ -47,3 +48,12 @@ def get_keywords(ticker: str) -> list:
 
 def daterange(start_date, end_date):
     return [start_date + datetime.timedelta(n) for n in range(int((end_date - start_date).days))]
+
+
+def extract_classification(response_list):
+    tags, confidences = [], []
+    for text in response_list:
+        tags.append(text['classifications'][0]['tag_name'])
+        confidences.append(text['classifications'][0]['confidence'])
+
+    return pd.Series(tags), pd.Series(confidences)

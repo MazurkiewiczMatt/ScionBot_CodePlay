@@ -1,4 +1,4 @@
-AMZN
+amzn
 2020-10-11
 2020-10-16
 algotrading,dividends,etoro,finance,forex,investing,options,optionsexclusive,personalfinance,robinhood,securityanalysis,stockmarket,stocks,tdameritrade,trading212,wallstreetbets,webull
