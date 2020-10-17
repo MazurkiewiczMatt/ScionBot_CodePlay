@@ -36,8 +36,9 @@ def get_keywords(ticker: str) -> list:
     first_word = company['longName'].split()[0]
     # get rid of , at the end of name's first word (like "tesla, inc." => "tesla")
     if first_word[-1] == ',':
-        names.append(first_word[:-1])
-    else:
-        names.append(first_word)
+        first_word = first_word[:-1]
+    names.append(first_word)
+    if first_word[-4:] == ".com":
+        names.append(first_word[:-4])
     names = [name.lower() for name in names]
     return list(set(names))
