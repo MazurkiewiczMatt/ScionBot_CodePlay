@@ -1,5 +1,6 @@
 from datetime import date
 import yfinance as yf
+import datetime
 
 
 def read_settings(filename: str) -> list:
@@ -42,3 +43,7 @@ def get_keywords(ticker: str) -> list:
         names.append(first_word[:-4])
     names = [name.lower() for name in names]
     return list(set(names))
+
+
+def daterange(start_date, end_date):
+    return [start_date + datetime.timedelta(n) for n in range(int((end_date - start_date).days))]
