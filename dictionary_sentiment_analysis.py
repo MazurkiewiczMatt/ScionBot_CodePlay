@@ -16,4 +16,7 @@ def dictionary_sentiment_check(string: str) -> float:
         if word in string:
             bearishness += 1
     total_words = bullishness + bearishness
-    return bullishness / total_words
+    if total_words > 0:
+        return bullishness / total_words
+    else:
+        return 0.5
