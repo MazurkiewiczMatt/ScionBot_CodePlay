@@ -32,6 +32,11 @@ def read_settings(filename: str) -> list:
 
 def get_keywords(ticker: str) -> list:
     company = yf.Ticker(ticker)
-    names = [ticker, company.info['longName'], company.info['shortName'], company.info['longName'].split()[0]]
+    names = [ticker, company.info['longName'], company.info['shortName']]
+    first_word = company.info['longName'].split()[0]
+    if first_word[-1] == ',':
+        names.append(company.info['longName'].split()[0])
+    else:
+        names.append(company.info['longName'].split()[0][:-1])
     names = [name.lower() for name in names]
     return list(set(names))
